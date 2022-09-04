@@ -8,14 +8,29 @@ package semana04;
  *
  * @author GIOVANNI
  */
-public class ejer6 {
-    public static void main(String[] args) {
-        int x=20;
-modificar(x);
-        System.out.println(x);
+class numero{
+    int x;
+    public numero(int r){
+        x=r;
     }
 
-    private static void modificar(int x) {
-     x=100;
- }
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+    
+}
+public class ejer6 {
+    public static void main(String[] args) {
+        numero p=new numero(20);
+        modificar(p);
+        System.out.println(p.getX());
+    }
+
+    private static void modificar(numero x) {
+        x.setX(100);
+    }
 }
