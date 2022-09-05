@@ -4,6 +4,7 @@ import java.util.Random;
 /*Diseñar un algoritmo para la lectura de 20 números y que nos muestre
 la media de todos los números leídos y cuál ha sido el más pequeño.
 package semana03;*/
+
 class vectorE {
 
     static final int n = 20;
