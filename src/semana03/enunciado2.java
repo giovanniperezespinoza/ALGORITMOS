@@ -29,7 +29,7 @@ class vectorP implements in_uno {
         System.out.println("");
     }
 
-    public void ordenar() {
+    public void ordenar() {//giovanni-> longitud(8) de mayor a menor
         int aux;
         for (int i = 0; i < lista.length; i++) {
             for (int j = 0; j < lista.length - 1; j++) {

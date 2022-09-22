@@ -1,7 +1,8 @@
 /*
  Enunciado03.java
 Crear un clase perro (name, sexo) y almacenarlo en un vector de
- tamaño 10, se pide llenar los datos con valores aleatorios y mostrar en pantalla.
+ tamaño 10, se pide llenar los datos con valores aleatorios y mostrar en pantalla. diagrama uml veiculo
+composicion y agregado compocicion la de la vaca y sus partes, y compcicion las sillas y las mesas.compociocion rombo negrita, agregacion rombo sin color.
 package semana03;
  */
 package semana03;
@@ -27,7 +28,7 @@ class perro {
 
 class criadero implements constante {
 
-    String ListaPerros[] = {"fiufiu", "pepe", "firulays", "brand", "chicoca", "fina", "ush", "gaus", "fer", "liza"};
+    String ListaPerros[] = {"fiufiu", "pep@", "firulays", "brand@", "chicoc@", "fin@", "ush", "gaus@", "f@r", "liz@"};
     perro galpon[] = new perro[n];
     int con = 0;
 
